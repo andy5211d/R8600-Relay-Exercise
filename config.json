@@ -1,0 +1,33 @@
+{
+  "Note": "My R8600 Settings, yours may vary!",
+
+  "serial": {
+    "port": "COM3",
+    "baud": 9600
+  },
+
+  "civ": {
+    "address": "0x96"
+  },
+
+  "dwell_ms": 1000,
+
+  "frequency_table": [
+    { "label": "LW",   "freq": 10000 },
+    { "label": "SW 1", "freq": 1520000 },
+    { "label": "SW 2", "freq": 1630000 },
+    { "label": "SW 3", "freq": 1940000 },
+    { "label": "SW 4", "freq": 2050000 },
+    { "label": "SW 5", "freq": 29600000 },
+    { "label": "VHF",  "freq": 30100000 },
+    { "label": "UHF",  "freq": 296000000 }
+  ],
+
+  "attenuator_table": [
+  { "label": "ATT 0 dB",  "value": 0 },
+  { "label": "ATT 10 dB", "value": 1 },
+  { "label": "ATT 20 dB", "value": 2 },
+  { "label": "ATT 30 dB", "value": 3 }
+  ]
+}
+
